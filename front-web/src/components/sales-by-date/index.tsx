@@ -30,6 +30,7 @@ function SalesByDateComponent({ filterData }: Props) {
         console.error('Error to fetch sales by date');
       });
   }, [params]);
+
   return (
     <div className="sales-by-date-container base-card">
       <div>
